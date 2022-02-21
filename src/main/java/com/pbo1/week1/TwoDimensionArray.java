@@ -23,11 +23,11 @@ public class TwoDimensionArray {
             int x=1;
             for(int j=0+(i*jumlahKegiatan);j<jumlahKegiatan+(i*jumlahKegiatan);j++){
                 
-                kegiatan[j][0]=nama;
+                kegiatan[j]=nama;
                 System.out.print("Nama kegiatan\t"+(x)+":");
-                kegiatan[j][1]=input.next();
+                kegiatan[j]=input.next();
                 System.out.print("Point kegiatan\t"+(x++)+":");
-                kegiatan[j][2]=input.next();
+                kegiatan[j]=input.next();
             }
             
         }
